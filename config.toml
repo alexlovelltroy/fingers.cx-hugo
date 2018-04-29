@@ -1,3 +1,46 @@
 baseURL = "http://fingers.cx/"
 languageCode = "en-us"
-title = "Alex's Tech Strategy Blog (with my fingers crossed)"
+title = "Fingers Crossed"
+theme = "hucore"
+copyright = "&copy; 2018 | Follow on <a href=\"https://twitter.com/alexlovelltroy\" target=\"_blank\">Twitter</a> ♥"
+disqusShortname = "shortname"
+googleAnalytics = "trackingcode"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+description = "Blogging about tech with my fingers crossed"
+keywords = ["devops", "serverless", "devsecops"]
+author = "Alex Lovell-Troy"
+sharingicons = true
+displayauthor = true
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/alexlovelltroy"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/alexlovelltroy"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "https://linkedin.com/in/alexlovelltroy"
+fa_icon = "fa-linkedin-square"
+
+[[params.social]]
+url = "https://keybase.io.com/alexlovelltroy"
+fa_icon = "fa-user-secret"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+
+[[params.socialshare]]
+url = "https://linkedin.com/in/alexlovelltroy"
+fa_icon = "fa-linkedin-square"
