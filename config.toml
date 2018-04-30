@@ -1,4 +1,4 @@
-baseURL = "http://fingers.cx/"
+baseURL = "https://fingers.cx/"
 languageCode = "en-us"
 title = "Fingers Crossed"
 theme = "hucore"
