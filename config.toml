@@ -19,27 +19,37 @@ displayauthor = true
 
 [params.highlight]
 style = "github"
-languages = ["go", "dockerfile"]
+languages = ["go", "dockerfile", "python"]
+
+[[params.social]]
+url = "https://www.lovelltroy.org"
+fa_icon = "fa-user-circle"
+description = "Who writes this?"
 
 [[params.social]]
 url = "https://github.com/alexlovelltroy"
 fa_icon = "fa-github"
+description = "Alex Lovell-Troy on GitHub"
 
 [[params.social]]
 url = "https://twitter.com/alexlovelltroy"
 fa_icon = "fa-twitter"
+description = "Alex Lovell-Troy on Twitter"
 
 [[params.social]]
 url = "https://linkedin.com/in/alexlovelltroy"
 fa_icon = "fa-linkedin-square"
+description = "Alex Lovell-Troy on LinkedIn"
 
 [[params.social]]
 url = "https://keybase.io.com/alexlovelltroy"
 fa_icon = "fa-user-secret"
+description = "Alex Lovell-Troy on Keybase.io"
 
 [[params.social]]
 url = "/index.xml"
 fa_icon = "fa-rss"
+description = "Get the RSS love here"
 
 [[params.socialshare]]
 url = "https://linkedin.com/in/alexlovelltroy"
