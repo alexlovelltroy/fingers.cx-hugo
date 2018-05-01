@@ -4,7 +4,7 @@ title = "Fingers Crossed"
 theme = "hucore"
 copyright = "&copy; 2018 | Follow on <a href=\"https://twitter.com/alexlovelltroy\" target=\"_blank\">Twitter</a> ♥"
 disqusShortname = "shortname"
-googleAnalytics = "trackingcode"
+googleAnalytics = "UA-22793554-2"
 
 [taxonomies]
 tag = "tags"
