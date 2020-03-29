@@ -1,8 +1,8 @@
 baseURL = "https://fingers.cx/"
 languageCode = "en-us"
 title = "Fingers Crossed"
-theme = "hucore"
-copyright = "&copy; 2018 | Follow on <a href=\"https://twitter.com/alexlovelltroy\" target=\"_blank\">Twitter</a> ♥"
+theme = "noteworthy"
+copyright = "&copy; 2020 | Follow on <a href=\"https://twitter.com/alexlovelltroy\" target=\"_blank\">Twitter</a> ♥"
 disqusShortname = "shortname"
 googleAnalytics = "UA-22793554-2"
 
@@ -16,6 +16,10 @@ keywords = ["devops", "serverless", "devsecops"]
 author = "Alex Lovell-Troy"
 sharingicons = true
 displayauthor = true
+twitter = "https://twitter.com/alexlovelltroy"
+linkedin = "https://linkedin.com/in/alexlovelltroy"
+flickr = "#"
+github = "https://github.com/alexlovelltroy"
 
 [params.highlight]
 style = "github"
