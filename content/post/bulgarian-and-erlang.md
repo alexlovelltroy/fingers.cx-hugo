@@ -10,13 +10,10 @@ lastmod = 2018-01-13
 draft = false
 
 tags = ["programming", "travel"]
-
-[header]
-image = "headers/header-martenitsa.jpg"
-caption = "[**Bulgarian Martenitsas**](https://en.wikipedia.org/wiki/Martenitsa/)"
 +++
 
 
+{{< figure src="/media/header-martenitsa.jpg" title="Bulgarian Martenitsas" >}}
 I'm a traveler and a professional programmer. Both require constant learning and adaptation. Both require me to change the way I think rather frequently. And, both have taught me to embrace new perspectives.
 
 As a traveler, I've been fortunate enough to spend several years at a time living in various places. The most different for me so far was Bulgaria, and it started with the language. Bulgarian lacks a word for "fun". It also lacks a word for "privacy". People often express these concepts in Bulgarian, but the have to use several words to do so. I don't know why this is true, but it had an effect on the way I lived and thought in Bulgaria that has stuck with me.

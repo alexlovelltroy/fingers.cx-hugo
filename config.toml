@@ -1,16 +1,58 @@
 baseURL = "https://fingers.cx/"
 languageCode = "en-us"
 title = "Fingers Crossed"
-theme = "noteworthy"
+theme = "hello-friend-ng"
 copyright = "&copy; 2020 | Follow on <a href=\"https://twitter.com/alexlovelltroy\" target=\"_blank\">Twitter</a> ♥"
 disqusShortname = "shortname"
 googleAnalytics = "UA-22793554-2"
 
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/post/:year/:month/:title/"
+
+[author]
+  name = "Alex Lovell-Troy"
+
+[blackfriday]
+  hrefTargetBlank = true
+
 [taxonomies]
-tag = "tags"
-category = "categories"
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
 
 [params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+
 description = "Blogging about tech with my fingers crossed"
 keywords = ["devops", "serverless", "devsecops"]
 author = "Alex Lovell-Troy"
@@ -25,6 +67,18 @@ github = "https://github.com/alexlovelltroy"
 style = "github"
 languages = ["go", "dockerfile", "python"]
 
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "post/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
+
 [[params.social]]
 url = "https://www.lovelltroy.org"
 fa_icon = "fa-user-circle"
@@ -32,21 +86,25 @@ description = "Who writes this?"
 
 [[params.social]]
 url = "https://github.com/alexlovelltroy"
+name = "github"
 fa_icon = "fa-github"
 description = "Alex Lovell-Troy on GitHub"
 
 [[params.social]]
 url = "https://twitter.com/alexlovelltroy"
+name = "twitter"
 fa_icon = "fa-twitter"
 description = "Alex Lovell-Troy on Twitter"
 
 [[params.social]]
 url = "https://linkedin.com/in/alexlovelltroy"
+name = "linkedin"
 fa_icon = "fa-linkedin-square"
 description = "Alex Lovell-Troy on LinkedIn"
 
 [[params.social]]
 url = "https://keybase.io.com/alexlovelltroy"
+name = "keybase"
 fa_icon = "fa-user-secret"
 description = "Alex Lovell-Troy on Keybase.io"
 
